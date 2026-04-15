@@ -1,0 +1,9 @@
+{
+	"name": "covid19-reporting-Learn-adf",
+	"location": "eastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7de47caa-a665-4878-a933-bf93ea49b003",
+		"tenantId": "187ca15f-54e0-4673-86f6-b6d7f4c75eef"
+	}
+}

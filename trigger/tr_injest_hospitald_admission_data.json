@@ -1,0 +1,28 @@
+{
+	"name": "tr_injest_hospitald_admission_data",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_ingest_ecdc_data",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"sourcerelatveURL": "/RaghuramRamesh27/Covid19_Project/main/hospital_admissions.csv",
+					"sinkfilename": "hospital_admissions.csv"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2026-03-15T03:55:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
