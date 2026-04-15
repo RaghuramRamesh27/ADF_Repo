@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "covid19-reporting-Learn-adf"
+		},
+		"ds_blob_covid19reportingsa_connectionString": {
+			"value": ""
+		},
+		"ls_adl_covid19reportingdl_accountKey": {
+			"value": ""
+		},
+		"ls_adl_covid19reportingdl_properties_typeProperties_url": {
+			"value": "https://covid19reportinglearndl.dfs.core.windows.net/"
+		},
+		"ls_github_covid_raw_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"tr_injest_hospitald_admission_data_properties_pl_ingest_ecdc_data_parameters_sourcerelatveURL": {
+			"value": "/RaghuramRamesh27/Covid19_Project/main/hospital_admissions.csv"
+		},
+		"tr_injest_hospitald_admission_data_properties_pl_ingest_ecdc_data_parameters_sinkfilename": {
+			"value": "hospital_admissions.csv"
+		},
+		"tr_injest_population_data_properties_typeProperties_scope": {
+			"value": "/subscriptions/f94d5077-a26c-4b5b-85c5-6c7020d12312/resourceGroups/covid-reporting-rg/providers/Microsoft.Storage/storageAccounts/covid19reportinglearn"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
